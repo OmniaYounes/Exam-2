@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title> Exam 2 </title>
+</head>
+<body>
+
+    <div class="sidebar" id="sid">
+        <div class="row">
+            <div class="col-md-10 big-side position-relative">
+                <div class="div-menu">
+                    <ul>
+                        <li type="none"><a href="index.html">Now playing</a></li>
+                        <li type="none"><a href="index.html">Popular</a></li">
+                        <li type="none"><a href="index.html">Top Rated</a></li">
+                        <li type="none"><a href="index.html">Trending</a></li">
+                        <li type="none"><a href="index.html">Upcoming</a></li">
+                        <li type="none"><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>  
+                <div class="div-footer position-absolute bottom-0">
+                    <i class="fa-brands fa-facebook-f text-light ps-4 px-2"></i>
+                    <i class="fa-brands fa-twitter text-light px-2"></i>
+                    <i class="fa-solid fa-globe text-light px-2"></i>
+                    <p class="text-secondary pt-4 ps-3">Copyright Â© 2019 All Rights Reserved.</p>
+                </div>
+
+            </div>
+            <div class="col-md-2 small-side">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="button-X position-absolute bottom-50">
+                    <i onclick="click()" class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="icons-end position-absolute">  
+                    <i class="fa-solid fa-share-nodes"></i>
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="header p-5">
+        <div class="container pt-5 px-5">
+                <div class="container-fluid px-5">
+                  <form>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input id="allMovies" class="form-control input-search" type="search" placeholder="get movies by word...">
+                        </div>
+                        <div class="col-md-6">
+                            <input id="Word" class="form-control input-search" type="search" placeholder="Search...">
+                        </div>
+                    </div>
+                  </form>
+                </div>
+        </div>
+    </div>
+
+
+    <div class="tranding">
+        <div class="body">
+            <div class="container px-5">
+                <div class="container px-5 py-5">
+                    <div class="row" id="rowData">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Contact px-5" id="contact">
+        <div class="container p-5">
+            <div class="conta px-5">
+            <h2>ContactUs....</h2>
+            <div class="row py-4">
+                <div class="col-md-6">
+                    <input id="name" class="form-control input" type="text" placeholder="Enter Your Name">
+                    <p class="valid-uName"></p>
+                </div>
+                <div class="col-md-6">
+                    <input id="email" class="form-control input" type="email" placeholder="Enter Email">
+                    <p class="valid-email"></p>
+                </div>
+                <div class="col-md-6">
+                    <input id="phone" class="form-control input" type="number" placeholder="Enter phone">
+                    <p class="valid-phone"></p>
+                </div>
+                <div class="col-md-6">
+                    <input id="age" class="form-control input" type="number" placeholder="Enter Age">
+                    <p class="valid-age"></p>
+                </div>
+                <div class="col-md-6">
+                    <input id="password" class="form-control input" type="password" placeholder="Enter Password">
+                    <p class="valid-pass"></p>
+                </div>
+                <div class="col-md-6">
+                    <input id="repassword" class="form-control input" type="password" placeholder="Enter RePassword">
+                    <p class="valid-repass"></p>
+                </div>
+                <button type="submit" onclick="submit()" id="submitBtn" class="btn btn-outline-danger sub">Submit</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+  
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

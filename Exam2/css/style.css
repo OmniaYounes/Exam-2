@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sidebar{
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 293px;
+    z-index: 9999999999999;
+    background-color: black;
+}
+
+.sidebar .small-side
+{
+    background-color: white;
+    height: 100vh;
+}
+
+.small-side .logo{
+    padding-top: 30px;
+}
+
+.small-side .logo img{
+    width: 100%;
+}
+
+.sidebar .small-side .fa-xmark{
+    text-align: center;
+    font-size: 30px;
+} 
+
+.sidebar .small-side .icons-end
+{
+    text-align: center;
+    font-size: 20px;
+    bottom: 20px;
+}
+.sidebar .small-side
+
+.big-side{
+    position: fixed;
+    z-index: 999999999999999;
+    width: 250px;
+    left: -250px;
+   height:100vh ; 
+}
+
+.sidebar:hover{
+    left: -250px;
+}
+
+.sidebar ul li{
+    color: #fff;
+    padding: 15px 5px;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header , .input-search
+{
+    background-color: black;
+
+}
+
+.input-search{
+    border: none;
+    border-bottom: 1px solid rgb(233, 232, 232);
+    border-radius: 0; 
+    background-color: transparent;
+    text-align: center;
+}
+
+.body{
+    background-color: black;
+    font-family: "Segoe UI Light", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.poo{
+    position:relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.layer{
+    background-color: rgba(255, 255, 255 , 0.6);
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top:100%;
+    left:0;
+    transition: top 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.poo:hover .layer{
+    top: 0;
+}
+
+.Contact{
+    background-color: black;
+}
+
+.input{
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid rgb(233, 232, 232);
+    border-radius: 0; 
+    background-color: transparent;
+    text-align: center;
+}
+.sub
+{
+    margin: auto;
+    width: 100px;
+}
+
+.conta p{
+    width: 100%;
+    background-color: rgb(252, 226, 226);
+    text-align: center;
+    color: rgb(15, 15, 15);
+}
